@@ -1,0 +1,39 @@
+ baseURL = 'https://CooperJH.github.io'
+languageCode = 'zh-cn'
+title = 'Cooper的工具箱'
+theme = 'PaperMod'
+
+[params]
+env = 'production'
+title = 'Cooper的工具箱'
+description = '分享实用软件工具、使用教程和评测对比'
+keywords = ['软件', '工具', '教程', '评测']
+author = 'Cooper'
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+
+[params.label]
+text = 'Cooper的工具箱'
+iconHeight = 35
+
+[[menu.main]]
+identifier = 'categories'
+name = '分类'
+url = '/categories/'
+weight = 10
+
+[[menu.main]]
+identifier = 'tags'
+name = '标签'
+url = '/tags/'
+weight = 20
+
+[[menu.main]]
+identifier = 'archives'
+name = '归档'
+url = '/archives/'
+weight = 30
+
+[outputs]
+home = ['HTML', 'RSS', 'JSON']
