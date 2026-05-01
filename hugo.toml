@@ -9,13 +9,39 @@ title = 'Cooper的工具箱'
 description = '分享实用软件工具、使用教程和评测对比'
 keywords = ['软件', '工具', '教程', '评测']
 author = 'Cooper'
+defaultContentLanguage = 'zh-cn'
+
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
+Showtoc = true
+ShowBreadCrumbs = true
 
 [params.label]
 text = 'Cooper的工具箱'
+icon = '/logo.svg'
 iconHeight = 35
+
+[params.homeInfoParams]
+Title = "欢迎来到 Cooper的工具箱"
+Content = '''
+这里分享实用的软件工具、使用教程和评测对比。
+
+专注于发现好用、高效的工具，帮助你提升工作效率。
+
+📌 最新文章请查看下方
+'''
+
+[params.socialIcons]
+twitter = "https://twitter.com"
+github = "https://github.com/CooperJH"
+email = "mailto:644753257@qq.com"
+
+[[menu.main]]
+identifier = 'home'
+name = '首页'
+url = '/'
+weight = 1
 
 [[menu.main]]
 identifier = 'categories'
@@ -35,5 +61,15 @@ name = '归档'
 url = '/archives/'
 weight = 30
 
+[[menu.main]]
+identifier = 'about'
+name = '关于'
+url = '/about/'
+weight = 40
+
 [outputs]
 home = ['HTML', 'RSS', 'JSON']
+
+[taxonomies]
+tag = 'tags'
+category = 'categories'
