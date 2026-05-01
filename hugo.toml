@@ -1,4 +1,4 @@
- baseURL = 'https://CooperJH.github.io'
+baseURL = 'https://cooperjh.github.io'
 languageCode = 'zh-cn'
 title = 'Cooper的工具箱'
 theme = 'PaperMod'
