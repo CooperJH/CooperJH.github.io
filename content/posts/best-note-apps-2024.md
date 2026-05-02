@@ -1,6 +1,6 @@
 ---
 title: "2024年最好用的笔记软件对比：Notion、Obsidian、Logseq选哪个？"
-date: 2024-01-23T00:00:00+08:00
+date: 2026-01-23T00:00:00+08:00
 draft: false
 tags: ["笔记软件", "Notion", "Obsidian", "效率工具"]
 categories: ["软件评测"]

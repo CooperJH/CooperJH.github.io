@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT提示词大全：20个实用Prompt让你效率翻倍"
-date: 2024-01-24T00:00:00+08:00
+date: 2026-01-24T00:00:00+08:00
 draft: false
 tags: ["ChatGPT", "AI", "提示词", "效率"]
 categories: ["AI工具"]
